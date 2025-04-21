@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/var/lib/snapd/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
